@@ -1,0 +1,14 @@
+{
+    "menu": [
+        {
+            "id": "home",
+            "label": "Registration Forms",
+            "link": "/"
+        },
+        {
+            "id": "diagram",
+            "label": "Flow Diagram",
+            "link": "/diagram"
+        }
+    ]
+}

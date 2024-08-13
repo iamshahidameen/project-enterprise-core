@@ -1,0 +1,25 @@
+{
+    "components": [
+        {
+            "name": "RegistrationFormV1",
+            "version": "v1",
+            "path": "../components/Forms/RegistrationFormV1"
+        },
+        {
+            "name": "RegistrationFormV2",
+            "version": "v2",
+            "path": "../components/Forms/RegistrationFormV2"
+        }
+    ],
+    "flowDiagrams": [
+        {
+            "name": "Custom Node 1",
+            "version": "v1"
+        },
+        {
+            "name": "Custom Node 2",
+            "version": "v2"
+
+        }
+    ]
+}
