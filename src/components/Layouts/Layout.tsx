@@ -25,9 +25,7 @@ function Layout(props: any) {
         }}
       >
         <Toolbar>
-          <Typography variant="h6" noWrap component="div">
-            <CommonMenu />
-          </Typography>
+          <CommonMenu />
         </Toolbar>
       </AppBar>
       <Drawer
