@@ -17,6 +17,7 @@ Key Features
 
 5.  Project Structure
 
+```bash
 DynamicAppBackup/
 │
 ├── public/
@@ -63,7 +64,7 @@ DynamicAppBackup/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
+```
 3. Setup Instructions
 
 Prerequisites
