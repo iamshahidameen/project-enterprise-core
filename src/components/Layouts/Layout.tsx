@@ -8,7 +8,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import SidebarComponent from './SidebarComponent';
-import { Outlet } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 
 const drawerWidth = 350;
 
@@ -44,11 +44,14 @@ function Layout(props: any) {
         variant="permanent"
         anchor="left"
       >
-        <img
-          src="/flow-web.png"
-          alt="logo"
-          style={{ objectFit: 'cover', maxHeight: '64px' }}
-        />
+        <NavLink to="/">
+          <img
+            src="/flow-web.png"
+            alt="logo"
+            style={{ objectFit: 'cover', maxHeight: '64px', minWidth: '100%' }}
+          />
+        </NavLink>
+
         <Divider sx={{ backgroundColor: '#fff' }} />
 
         <SidebarComponent />
